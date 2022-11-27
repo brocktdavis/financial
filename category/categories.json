@@ -1,0 +1,58 @@
+[
+  { "name": "income",
+    "children": [
+      { "name": "Pay" },
+      { "name": "Reimbursement" },
+      { "name": "Cash Back" }
+    ]},
+  { "name": "expenses",
+    "children": [
+      { "name": "Housing",
+        "children": [
+          { "name": "Rent" },
+          { "name": "Utilities" },
+          { "name": "Internet"}
+        ]},
+      { "name": "Transportation",
+        "children": [
+          { "name": "Auto Insurance" },
+          { "name": "Routine Car Maintenance" },
+          { "name": "Car Repairs" },
+          { "name": "Gasoline" },
+          { "name": "Parking" },
+          { "name": "Registration/DMV" },
+          { "name": "Penalties" }
+        ]},
+      { "name": "Food",
+        "children": [
+          { "name": "Grocery" },
+          { "name": "Restaurants" },
+          { "name": "Bars" }
+        ]},
+      { "name": "Entertainment",
+        "children": [
+          { "name": "Streaming Services" },
+          { "name": "Gaming" }
+        ]},
+      { "name": "Shopping",
+        "children": [
+          { "name": "Personal" },
+          { "name": "Gifts" }
+        ]},
+      { "name": "Personal",
+        "children": [
+          { "name": "Haircuts" },
+          { "name": "Website" }
+        ]},
+      { "name": "Travel",
+        "children": [
+          { "name": "Airfare" },
+          { "name": "Hotel/BnB" }
+        ]},
+      { "name": "Other",
+        "children": [
+          { "name": "Zorb" },
+          { "name": "Misc" }
+        ]}
+    ]}
+]
