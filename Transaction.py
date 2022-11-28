@@ -3,16 +3,20 @@ import datetime, math
 class Transaction:
     
     # --FIELDS--
-    # date
-    # name
-    # positive
-    # negative
-    # reimbursable
+    # date: A datetime object describing when the transaction took place
+    # name: A name for the transaction, usually a vendor's description
+    # positive: The positive amount associated with this transaction (a positive number itself)
+    # negative: The negative amount associated with this transaction (a positive number itself)
+    # reimbursable: True if the transaction is reimbursable
     
     def __init__(self, date, name, positive_amt, negative_amt, reimbursable=False):
         self.date = date
         self.name = name
+        if positive_amt < 0:
+            raise ValueError("Positive amount should be non-negative")
         self.positive = positive_amt
+        if negative_amt < 0:
+            raise ValueError("Negative amount should be non-negative")
         self.negative = negative_amt
         self.reimbursable = reimbursable
     
