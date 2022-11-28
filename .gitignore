@@ -1,5 +1,13 @@
+# Personal data
+data/
+category/mappings.db
+
 # Python virtual environment
 .venv
 
-#Jupyter notebook checkpoints
+# Jupyter notebook checkpoints
 .ipynb_checkpoints
+
+# Cache
+*__pycache__
+

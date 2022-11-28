@@ -1,11 +1,12 @@
 [
-  { "name": "income",
+  { "name": "Income",
     "children": [
       { "name": "Pay" },
       { "name": "Reimbursement" },
-      { "name": "Cash Back" }
+      { "name": "Cash Back" },
+      { "name": "Card Payments" }
     ]},
-  { "name": "expenses",
+  { "name": "Expenses",
     "children": [
       { "name": "Housing",
         "children": [
@@ -18,25 +19,29 @@
           { "name": "Auto Insurance" },
           { "name": "Routine Car Maintenance" },
           { "name": "Car Repairs" },
+          { "name": "Car Wash" },
           { "name": "Gasoline" },
-          { "name": "Parking" },
+          { "name": "Parking/Tolls" },
           { "name": "Registration/DMV" },
           { "name": "Penalties" }
         ]},
       { "name": "Food",
         "children": [
           { "name": "Grocery" },
+          { "name": "Liquor Stores" },
           { "name": "Restaurants" },
+          { "name": "Coffee Shops" },
           { "name": "Bars" }
         ]},
       { "name": "Entertainment",
         "children": [
           { "name": "Streaming Services" },
+          { "name": "Outings" },
           { "name": "Gaming" }
         ]},
       { "name": "Shopping",
         "children": [
-          { "name": "Personal" },
+          { "name": "Personal Shopping" },
           { "name": "Gifts" }
         ]},
       { "name": "Personal",
@@ -47,7 +52,9 @@
       { "name": "Travel",
         "children": [
           { "name": "Airfare" },
-          { "name": "Hotel/BnB" }
+          { "name": "Airport Parking" },
+          { "name": "Hotel/BnB" },
+          { "name": "Rental Car" }
         ]},
       { "name": "Other",
         "children": [
